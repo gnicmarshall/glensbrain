@@ -6,7 +6,7 @@ first session that learns what this project is for must replace this
 section with a real description, how to run it, and its hard rules.
 
 ## Setup
-- Own private GitHub repo: `gnicmarshall/glens-brain`. It must stay its own
+- Own private GitHub repo: `gnicmarshall/glensbrain`. It must stay its own
   repo — the Claude desktop app groups sessions in the sidebar by git repo,
   so without one this folder's sessions get filed under the parent
   `claude-workspace` repo instead of their own heading.
