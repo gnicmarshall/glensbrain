@@ -1,0 +1,8 @@
+.DS_Store
+.obsidian/workspace*
+.obsidian/cache
+.trash/
+_system/log/.last-output.txt
+_system/log/.last-run
+_system/log/.vault.lock/
+_system/log/*.launchd.log
