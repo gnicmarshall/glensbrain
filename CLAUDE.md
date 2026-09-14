@@ -25,7 +25,8 @@ Full librarian rules, frontmatter schema and naming conventions live in
 - `com.glen.glensbrain.librarian` — checks daily at 06:00; actually runs only if `Inbox/` has files or the last run was 2+ days ago. Script: `_system/scripts/librarian.sh` → headless `claude -p` with `_system/LIBRARIAN.md`. Log: `_system/log/`.
 - On demand: `/brain` skill in a Claude Code session opened here.
 - Logs: `_system/log/sync.log`, `_system/log/librarian.log`, one `_system/log/YYYY-MM-DD run.md` per librarian run (these are notes, visible in Obsidian).
-- Reload after editing a plist: `launchctl unload ~/Library/LaunchAgents/<name>.plist && launchctl load ~/Library/LaunchAgents/<name>.plist`.
+- Plists are kept in `_system/launchd/`; `_system/scripts/install-launchd.sh` copies and loads them. Re-run it after editing a plist.
+- **macOS privacy gotcha (found 13 Sep 2026):** launchd runs `/bin/zsh` as a background process, and macOS blocks background processes from `~/Documents` (the launchd log showed "can't open input file …/sync.sh" even though the file exists). The fix is a one-time grant: System Settings → Privacy & Security → Full Disk Access → add `/bin/zsh` (press Cmd-Shift-G in the file picker and type `/bin/zsh`). Until that is done both jobs fail silently; `/brain` and manual `zsh _system/scripts/sync.sh` still work because they run from an app that already has access.
 
 ## Hard rules a fresh session must not violate
 1. **Never edit the body of anything in `Raw/`.** It is the evidence. Add frontmatter only.
