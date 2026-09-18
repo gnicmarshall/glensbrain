@@ -9,3 +9,8 @@ Not logged in · Please run /login
 2026-09-17 08:05:15 START inbox=0 days_since=2
 error: cannot pull with rebase: You have unstaged changes.
 error: Please commit or stash them.
+remote: GH100: Service unavailable.
+fatal: unable to access 'https://github.com/gnicmarshall/glensbrain.git/': The requested URL returned error: 503
+2026-09-17 08:05:18 END rc=1
+Not logged in · Please run /login
+
