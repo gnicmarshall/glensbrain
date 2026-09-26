@@ -32,3 +32,6 @@ Not logged in · Please run /login
 
 2026-09-24 08:10:33 skipped: inbox empty, last run 1d ago
 2026-09-25 08:01:59 skipped: inbox empty, last run 1d ago
+2026-09-26 08:00:04 START inbox=0 days_since=2
+error: cannot pull with rebase: You have unstaged changes.
+error: Please commit or stash them.
