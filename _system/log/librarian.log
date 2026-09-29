@@ -42,3 +42,6 @@ Not logged in · Please run /login
 2026-09-28 08:02:51 START inbox=0 days_since=2
 error: cannot pull with rebase: You have unstaged changes.
 error: Please commit or stash them.
+2026-09-28 08:02:56 END rc=1
+Not logged in · Please run /login
+
