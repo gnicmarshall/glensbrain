@@ -77,3 +77,7 @@ error: Please commit or stash them.
 Not logged in · Please run /login
 
 2026-10-13 06:00:15 skipped: inbox empty, last run 0d ago
+2026-10-14 06:01:07 skipped: inbox empty, last run 1d ago
+2026-10-15 06:01:04 START inbox=0 days_since=2
+error: cannot pull with rebase: You have unstaged changes.
+error: Please commit or stash them.
