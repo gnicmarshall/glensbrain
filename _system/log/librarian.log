@@ -155,3 +155,5 @@ error: Please commit or stash them.
 2026-11-10 06:01:03 END rc=1
 Not logged in · Please run /login
 
+2026-11-11 06:00:59 skipped: inbox empty, last run 0d ago
+2026-11-12 06:00:24 skipped: inbox empty, last run 1d ago
