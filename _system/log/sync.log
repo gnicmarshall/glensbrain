@@ -864,3 +864,7 @@ error: Please commit or stash them.
 error: cannot pull with rebase: You have unstaged changes.
 error: Please commit or stash them.
 2026-11-21 11:44:36 PULL FAILED — resolve manually (git status)
+2026-11-21 12:14:36 committed
+error: cannot pull with rebase: You have unstaged changes.
+error: Please commit or stash them.
+2026-11-21 12:14:36 PULL FAILED — resolve manually (git status)
