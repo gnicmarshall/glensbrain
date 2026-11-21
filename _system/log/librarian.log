@@ -167,3 +167,7 @@ Not logged in · Please run /login
 2026-11-21 10:38:54 START inbox=0 days_since=8
 error: cannot pull with rebase: You have unstaged changes.
 error: Please commit or stash them.
+fatal: unable to access 'https://github.com/gnicmarshall/glensbrain.git/': Could not resolve host: github.com
+2026-11-21 10:38:58 END rc=1
+Not logged in · Please run /login
+
