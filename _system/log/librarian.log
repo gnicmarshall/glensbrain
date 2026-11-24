@@ -172,3 +172,7 @@ fatal: unable to access 'https://github.com/gnicmarshall/glensbrain.git/': Could
 Not logged in · Please run /login
 
 2026-11-22 06:00:59 skipped: inbox empty, last run 0d ago
+2026-11-23 06:00:59 skipped: inbox empty, last run 1d ago
+2026-11-24 06:00:59 START inbox=0 days_since=2
+error: cannot pull with rebase: You have unstaged changes.
+error: Please commit or stash them.
